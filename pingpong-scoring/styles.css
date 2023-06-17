@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-container {
+    text-align: center;
+    border: 2px solid rgb(47, 43, 43);
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: rgb(196, 52, 196);
+}
+
+.score-board {
+    border-top: 2px solid black;
+    font-size: 3rem;
+}
+
+#win-score {
+    border-radius: 13px;
+}
+
+.win-pts {
+    margin: 1.5em;
+}
+
+.player-btn .player-one {
+    background-color: rgb(78, 220, 113);
+}
+
+.player-btn .player-two {
+    background-color: rgb(7, 143, 201);
+}
+
+.btn {
+    border-radius: 13px;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+.win{
+    color: rgb(14, 220, 14);
+}
+
+.lost{
+    color: red;
+}
